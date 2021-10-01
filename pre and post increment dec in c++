@@ -1,0 +1,18 @@
+conter =10;
+result=0;
+cout<<"counter"<<counter<<endl;
+result = ++counter + 10 // pre inc
+cout<<"counter"<<counter << endl;
+cout<<"result"<<result<<endl;
+0p 10,11,21
+
+counter=10;
+result=0;
+cout<<"counter"<<counter<<endl;
+result=counter++ +10;//post incre
+cout<<"counter"<<counter<<endl;
+cout<<"result"<<result<<endl;
+cout<<endl;
+return o;
+}
+0p 10 11 20
