@@ -1,0 +1,16 @@
+#include<iostream>
+
+using namespace std;
+int main(){
+bool equal_result{false};
+bool unequal_result{false};
+
+int num1{},num2{};
+cout<<boolalpha ;//will display true/false instead of i/o
+cout<<"enter two integer seprated bya space ";
+cin>>num1>>num2;
+equal_result = (num1==num2);
+not_equal_result = (num1 != num2);
+cout << "comparison result (equal)" <<equal_result<<endl;
+cout<< " comparison result (not equal)" <<not_equal_result<<endl;
+0p::: 10 10 , cre = 1, crne = 0 .
