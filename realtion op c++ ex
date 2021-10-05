@@ -6,6 +6,7 @@ const int lower{10};
 const int upper{20};
 cout<<"enter an integers that is greater than "<<lower<<":";
 cin>>num1;
+cout<<num1<<">"<<lower<<"is"<<(num1 > lower)<<endl;
 cout<<"enter the integer that is less than or equal to"<<upper<<":";
 cin>>num1;
 cout<<num1<<"<="<<upper<<"is"<<(num1 <= upper)<<endl;
