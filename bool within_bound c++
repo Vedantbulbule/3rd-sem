@@ -1,0 +1,14 @@
+int main(){
+int num1{};
+cout<<boolalpha;
+
+const int lower{10};
+const int upper{20};
+cout<<"enter an integers that is between "<<lower<<"and"<<upper<<endl;
+cin>>num1;
+bool within_bound{false};
+within_bound=(num1>lower && num1<upper);
+cout<<num1<< "is between "<<lower<<"and"<<upper<<":"<<within_bound<<endl;
+cout<<endl;
+return 0;
+}
