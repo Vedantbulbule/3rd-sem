@@ -1,0 +1,24 @@
+#include<iostream>
+
+using namespace std ;
+
+int main(){
+    cout<<boolalpha;
+bool wear_coat{false};
+double tempreture{};
+int wind_speed{};
+
+const int wind_speed_for_coat{25};//wind over this value req coat
+const double tempreture_for_coat{45};//tem below this value req coat
+
+cout<<"enter the current tempreture in farhenhit(f)"<<endl;
+cin>>tempreture;
+cout<<"enter the current wind speed in (mph)"<<endl;
+cin>>wind_speed;
+wear_coat = (tempreture<tempreture_for_coat||wind_speed>wind_speed_for_coat);
+cout<<"do you need to wear coat using or  :"<<wear_coat<<endl;
+
+wear_coat = (tempreture<tempreture_for_coat&&wind_speed>wind_speed_for_coat);
+cout<<"do you need to wear coat using and : "<<wear_coat<<endl;
+return 0;
+}
