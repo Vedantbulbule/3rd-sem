@@ -1,0 +1,28 @@
+cout<<"solution using modualr operator"<<endl;
+   
+balance=dollar=quater=dimes=nickel=penny=0
+
+dollars=change_amount/dollar_value;//267/100=2dollar and 67 rem
+balance=change_amount%dollar_value;
+
+quaters=balance/quater_value;//67/25=2quat and 17 rem
+balance%=quater_value;
+
+dimes=balance/dimes_value;//17/10=1dime and 7 rem
+balance%=dimes_value;
+
+nickels=balance/nickel_value;//7/5=1nickel and 2 rem
+balance%=nickel_value;
+
+pennies=balance;// penneis rem only 2
+
+cout<<"\n you can provide this change"<<endl;
+cout<<"dollars"<<dollar<<endl;
+cout<<"quaters"<<quaters<<endl;
+cout<<"dimes"<<dimes<<endl;
+cout<<"nickels"<<nickel<<endl;
+cout<<"pennies"<<penny<<endl;
+
+cout<<endl;
+return 0;
+}
