@@ -1,0 +1,30 @@
+int main(){
+int num{};
+const int min{10};
+const int max{100};
+
+cout<<"enter a number between " <<min <<"and"<<max<<":";
+cin>>num;
+
+if(num>=min){
+    cout<<num<<"is greater than "<<min<<endl;
+int diff(num-min);
+cout<<num<<"has diffrence of "<<diff<<endl;
+}
+if(num<=max){
+    cout<<num<<"is less than or equal to"<<max<<endl;
+    int diff(num-max);
+    cout<<num<<"has diffence of "<<diff<<endl;
+}
+if(num >= min && num <= max){
+    cout<<num<<" in range"<<endl;
+   cout<<"this means statement 1 and 2 must also display"<<endl;
+}
+if(num==min || num==max){
+    cout<<num<<"is right on a boundary"<<endl;
+    cout<<"this means  all statement  must also display"<<endl;
+}
+
+cout<<endl;
+return 0;
+}
