@@ -1,0 +1,39 @@
+#include <iostream>
+#include <vector>
+#include <iomanip>
+
+
+using namespace std;
+int main (){
+//int scores []{10,20,30,40,50};
+//for(auto score : scores){
+ //cout<<score<<endl;
+//}
+//return 0;
+//}
+//vector <double> temperature {1.2,2.4,5.7,8.3,5.5};
+//double average_temp{};
+//double total{};
+
+ //for ( auto temp : temperature ){
+   // total+=temp;
+    
+   //if( temperature.size() != 0)
+      //  average_temp=total/temperature.size();
+ //}
+    //cout<<fixed<<setprecision(1);
+
+//cout<<average_temp<<endl;
+//return 0;
+//}
+for (auto val :{1,2,3,4,5})
+    cout<<val<<endl;
+    
+    for (auto c : "this is a test")
+        if (c!= " ")
+            cout<<"\t";
+            else
+                cout<<c<<endl;
+            cout<<endl;
+            return 0;
+}
