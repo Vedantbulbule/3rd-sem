@@ -1,0 +1,29 @@
+#include<iostream>
+#include<vector>
+
+using namespace std ;
+
+int main(){
+    int data_v;
+    
+    cout<<"how many item you want "<<endl;
+    cin>>data_v;
+    
+    vector<int>peta{};
+
+    for (int i{1} ; i <=data_v ;++i){
+        int peta_items{};
+        cout<<"enter peta items"<<i<<":"<<endl;
+        cin>>peta_items;
+        peta.push_back(peta_items);
+    }
+    cout<<"display histogram"<<endl;
+    for(auto val: peta){
+     
+        for (int i{1} ; i<=val ; ++i){
+            cout<<"-";
+        }
+    cout<<endl;
+    }     
+return 0;
+}
